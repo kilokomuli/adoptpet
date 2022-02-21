@@ -1,0 +1,30 @@
+body{
+    background-color: red;
+    min-height: 100vh;
+
+}
+.cont{
+    background: #833ab4;  
+    background: -webkit-linear-gradient(to right, #fcb045, #fd1d1d,#833ab4); 
+    background: linear-gradient(to right, #fcb045, #fd1d1d,#833ab4);
+}
+a:hover{
+    color: #833ab4;
+    transition: all 0.3s ease;
+}
+/*.img-bg{
+    background-image: url("/images/slide1.jpg");
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+}*/
+
+.form-container {
+padding-top: 80px;
+    max-width: 50%;
+    display: flex;
+    margin: auto;
+    flex-direction: column;
+    place-content: center;
+    place-items: center;
+}
